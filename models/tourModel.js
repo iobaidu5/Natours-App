@@ -16,11 +16,14 @@ const tourSchema = new mongoose.Schema({
         required: [true, 'A tour must have gtoup size']
     },
     difficulty: {
-        type: Number,
+        type: String,
         required: [true, 'A tour must have difficulty']
     }, 
    
-    ratingAverage: {
+    ratingsAverage: {
+        ratingsAverage: {
+        ratingsAverage: {
+            ratingsAverage: {
         type: Number,
         default: 4.5
     },
