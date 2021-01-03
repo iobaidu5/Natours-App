@@ -31,7 +31,7 @@ const AppError = require('../utils/appError');
 exports.aliasTopTours = async (req,res,next) => {
     req.query.limit = '5';
     req.query.sort = '-ratingsAverage,price';
-    req.query.fields = 'name,price,ratingAverage,summary,difficulty';
+    req.query.fields = 'na me,price,ratingAverage,summary,difficulty';
     next();
 }
 
